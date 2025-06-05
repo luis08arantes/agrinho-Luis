@@ -1,102 +1,47 @@
-/* Reset básico */
-* {
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-/* Estilo do corpo da página */
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
   color: #333;
-  line-height: 1.6;
 }
 
-/* Cabeçalho */
 header {
   background-color: #4CAF50;
   color: white;
-  padding: 40px 20px;
+  padding: 2rem;
   text-align: center;
 }
 
-header h1 {
-  margin-bottom: 10px;
-  font-size: 2.5em;
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-/* Navegação */
-nav {
-  background-color: #388E3C;
-  text-align: center;
-  padding: 15px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 20px;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #c8e6c9;
-}
-
-/* Conteúdo principal */
-.container {
-  max-width: 960px;
-  margin: 30px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Seções */
-section {
-  margin-bottom: 40px;
+h1 {
+  font-size: 2rem;
+  margin: 0;
 }
 
 h2 {
-  color: #2E7D32;
-  margin-bottom: 10px;
+  color: #4CAF50;
+  margin-top: 2rem;
 }
 
 ul {
-  padding-left: 20px;
   list-style-type: disc;
+  margin-left: 2rem;
 }
 
-p {
-  margin-bottom: 10px;
-}
-
-/* Rodapé */
 footer {
-  background-color: #333;
-  color: #ccc;
   text-align: center;
-  padding: 20px;
-  margin-top: 30px;
-  font-size: 0.9em;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
 }
 
-/* Responsivo */
-@media (max-width: 768px) {
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
-
-  header h1 {
-    font-size: 2em;
-  }
-
-  .container {
-    margin: 20px;
-    padding: 15px;
-  }
-}
